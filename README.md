@@ -1,16 +1,25 @@
-# life
+# Ortalama Ömür Hesaplama Uygulaması
+Bu uygulama, kullanıcının yaşam tarzı faktörlerine göre ortalama ömür tahminini hesaplamak için Flutter ve Dart programlama dilleriyle yazılmıştır. Kullanıcıdan boy, kilo, cinsiyet, günlük sigara içim sıklığı ve haftada yapılan spor sayısı gibi bilgiler alınarak hesaplama yapılır.
 
-A new Flutter project.
+## Nasıl Çalışır?
+Uygulama başlatıldığında, kullanıcıdan boy, kilo ve cinsiyet gibi temel bilgiler istenir.
+Daha sonra, günlük kaç kez sigara içtiği ve haftada kaç kez spor yaptığı sorulur.
+Kullanıcının sağlıklı yaşam tarzına uygun olup olmadığına göre ortalama ömrü hesaplanır ve sonuç gösterilir.
+## Kurulum
+Uygulamayı çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-## Getting Started
+Bu repository'yi kendi bilgisayarınıza kopyalayın veya ZIP olarak indirin.
 
-This project is a starting point for a Flutter application.
+Uygulamanın ana dizinine gidin ve komut istemcisini açın.
 
-A few resources to get you started if this is your first Flutter project:
+Aşağıdaki komutları kullanarak uygulamayı başlatın:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+arduino
+Copy code
+flutter pub get
+flutter run
+## Gereksinimler
+Uygulamayı çalıştırabilmek için Flutter ve Dart yüklü olmalıdır.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Katkı Sağlama
+Eğer uygulamayı geliştirmek veya hata düzeltmeleri yapmak isterseniz, lütfen bir "fork" oluşturup pull request göndermekten çekinmeyin.
